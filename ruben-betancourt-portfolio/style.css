@@ -1,0 +1,143 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+            padding: 3em 0;
+    }
+    .masthead-heading {
+            font-size: 3em;
+    }
+}
+.masthead{
+    padding: 6em 0;
+    background-image: url('https://images.unsplash.com/photo-1439546743462-802cabef8e97?q=80&fm=jpg&s=510f72180ea7448a0cb0f92cf626c66d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+   
+}
+
+
+.masthead-intro,
+.masthead-heading,
+.content-footer 
+{
+     text-align: center;
+ }
+
+.masthead {
+    padding: 6em 0;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: #008B8B;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: -0.02em;
+    color: #008B8B;
+    text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #008B8B; 
+    text-align: left;
+}
+.social > li {
+    display: inline-block;
+}
+
+
+
+/*  ----------- New Youk Hack Image  --------------- */
+.portfolio-projects > h1, h2 {
+    font-size: 1.75rem;
+    margin: 2.625rem 0 3.125rem;
+    font-weight: 300;
+    color: #008B8B;
+    text-align: center;
+}
+
+.hack-image { 
+  margin-left: 25.5rem;
+}
+
+
+
+
+/*  ----------- Karma page and Image   ------------- */
+.introduction-karma {
+    background-image: url('../ruben-betancourt-portfolio/images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 40.938rem;
+    overflow: auto;
+}
+.introduction-karma h1 {
+    margin-top: 12.5rem;
+    font-size: 3.125rem;
+}
+.introduction-karma h1, .introduction-karma h3, .content {
+    color: brown;
+    text-align: center;
+    font-weight: 300;
+}
+big-button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+big-button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin:0 auto; 
+}
+
+
+.content-footer   {
+    
+    margin-top: 5em;
+    padding: 4em 0;
+    color: white; 
+    background-color: #A9A9A9;  
+  }  
