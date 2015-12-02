@@ -1,0 +1,321 @@
+/*
+#c9c9c9
+#e3e3e3
+#9ad3de
+#89bdd3
+*/
+/*
+#c5d5cb
+#9fa8a3
+#e3e0cf
+#fff         white
+*/
+
+/* QUIZ */
+
+body {
+  color: #000;  /*#fff;*/
+  background: #c5d5cb;
+}
+
+#page {
+  padding: 0;
+}
+
+#header,
+#content,
+#footer,
+#closer {
+  clear: both;
+  min-width: 764px;
+  _zoom: 1;
+}
+
+#header-inner,
+#content-inner,
+#footer-inner,
+#closer-inner {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* HEADER */
+
+#header-inner {
+}
+
+.header_body1,
+.header_body2 {
+  color: #000;
+  background: #e3e0cf;
+}
+
+
+#header_body1 img {
+  display: inline;
+  float: left;
+  margin: 10px;
+}
+
+#header_body1 h1 {
+  display: inline;
+  float: left;
+  margin: 16px 0 0;
+  font-size: 200%;
+}
+
+#header_body1 h1.bgfx {
+  height: 150px;
+  display: block;
+  margin: 0;
+  background-image: url('../images/dumbtestheader_new.jpg');
+  background-repeat: no-repeat;
+}
+
+#header_body1 .bgfx,
+#header_body1 .bgfx1 {
+  width: 899px;
+  height: 150px;
+}
+
+#header_body1-shim {
+  clear: both;
+}
+
+#header_body2 h2 {
+  margin: 0;
+  padding: 0.5em 1em;
+  font-size: 80%;
+}
+nav {
+  position: relative;
+  height: 10%;
+  padding: 1em;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+nav ul li {
+   float: left;
+}
+
+nav a {
+  color: #fff;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3em;
+  padding: 0.8em;
+  color: #fff;
+
+}
+/* === CONTENT === */
+
+#main {
+  padding: 1px 0 20px;
+}
+
+/* ERRORS */
+
+div.error p {
+  font-size: 120%;
+  text-align: center;
+}
+
+div.error {
+  background: #FFFF88;
+  border: 3px solid #F7F70A;
+  color: #000;
+  padding: 0.6em 0.6em 0;
+  margin: 0.5em 0.5em 0;
+}
+
+ol div.error {
+  margin: 0;
+}
+
+ol div.error p {
+  background: url(http://cdn.mgsrvr.com/quazar/shared/images/icons/fff/error.png) no-repeat 0 0.1em;
+  padding-left: 20px;
+  font-size: 100%;
+  text-align: left;
+}
+
+/* PROGRESS BAR */
+
+.progress-outer {
+  padding: 10px 0;
+}
+
+.progress-outer .progress {
+  font-size: 80%;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.progress dd {
+  background: #fff;
+}
+
+/* PATH LIBRARY */
+
+.pl {
+  padding-top: 1em;
+}
+
+.main .pl h2 {
+  margin-bottom: 1em;
+}
+
+/* QUIZ */
+
+ol.questions {
+  margin: 0 20px 0 0;
+  padding-left: 72px;
+  width: 508px;
+  list-style-type: none;
+}
+
+ol.questions li.answer span.label {
+  width: 472px;
+}
+
+.pl .section-demo_form .center .disclaimer {
+  text-align: left;
+  margin-left: 160px;
+}
+
+/* PL QUIZ */
+
+.pl .section-demo_form .section-sidebar {
+  width: auto;
+}
+
+.pl .section-demo_form .section-sidebar .section_main {
+  width: 450px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+}
+
+.pl .section-demo_form .section_sidebar {
+  width: 218px;
+  display: inline;
+  float: left;
+  margin-left: 40px;
+}
+
+.pl .section-demo_form .fields {
+  matgin-top: 1em;
+}
+
+/* COREG QUESTION */
+
+/* standalone w/image */
+ol.questions-coreg li.coreg-standalone .question-coreg-image ul.answers  {
+  width: 570px;
+}
+
+ol.questions-coreg li.coreg-standalone .question-coreg-image li.answer span.label  {
+  width: 501px;
+}
+
+/* standalone w/out image */
+ol.questions-coreg li.coreg-standalone li.answer span.label  {
+  width: 620px;
+}
+
+/* numbered w/image */
+ol.questions-coreg li.coreg-question .question-coreg-image ul.answers  {
+  width: 550px;
+}
+
+ol.questions-coreg li.coreg-question .question-coreg-image li.answer span.label  {
+  width: 482px;
+}
+
+/* numbered w/out image */
+ol.questions-coreg li.coreg-question li.answer span.label  {
+  width: 635px;
+}
+
+.submit {
+  margin-top:20px;
+  margin-left: 50px; 
+  width: 200px;
+}
+/* RESULTS */
+
+.results .content-inner {
+  padding-bottom: 1em;
+}
+
+.results .content_body0 {
+  width: 404px;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+}
+
+.results .content_body1 {
+  width: 300px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+}
+
+.results h3 {
+  font-size: 130%;
+  margin: 0.77em 0 0;
+  text-transform: uppercase;
+}
+
+.results .description,
+.results .image {
+  width: 370px;
+}
+
+.results .image {
+  text-align: center;
+}
+
+.results .description p {
+  font-size: 90%;
+}
+
+.results .sidebar img {
+  margin-top: 1em;
+}
+
+.results h3,
+.results h3 a,
+.results .sidebar a {
+  color: #000;
+}
+
+.results .sidebar p {
+  margin: 0 0 1em;
+}
+
+body.quiz-results .result .description {
+  display: block;
+  float: none;
+  width: 370px;
+}
+
+body.quiz-results .result .image {
+  display: block;
+  float: none;
+  width: auto;
+}
+
+body.quiz-results .results h3 {
+  margin-bottom: 0;
+}
